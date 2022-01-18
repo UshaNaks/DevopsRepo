@@ -45,6 +45,22 @@ public class Request {
 			
 			
 			public class DemoClass{
+ //latest code is added by dev1//// new code for HDFC-300 userstory is added by Dev1
+ package com.softwaretestinghelp;
+ 
+public class DemoClass{
+public static int  sampleMethod(int a,int b) throws ArithmeticException{ 
+//[1] int as data type of return value
+      System.out.println("Hello, this is sample method");
+      int c = a/b; // int c = 4 / 2 gets calculated as 2 
+      System.out.println("c:"+c); // c: 2
+      return c;//return statement 
+ } 
+ 
+public static void main (String[] args){
+    int x = DemoClass.sampleMethod(4,2);//return value is assigned to variable x 
+    System.out.println("x:"+x); // x: 2
+ }
  // latest changes done by dev2// new code for HDFC-301 userstory is added by Dev2
  public class DemoClass{
  
