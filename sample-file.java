@@ -45,14 +45,30 @@ public class Request {
 			
 			
 			public class DemoClass{
- // new code for HDFC-301 userstory is added by Dev2
- public static int  sampleMethod(int a,int b) throws ArithmeticException{ 
-//[1] int as data type of return value
-      System.out.println("Hello, this is sample method");
-      int c = a/b; // int c = 4 / 2 gets calculated as 2 
-      System.out.println("c:"+c); // c: 2
-      return c;//return statement 
- } 
+ // latest changes done by dev2// new code for HDFC-301 userstory is added by Dev2
+ public class DemoClass{
+ 
+          public static String getGrade(int percentage ) {       
+               if(percentage&amp;gt;=60){  
+                   System.out.println("A grade"); 
+                   return "A grade"; //Return statement
+               }else if(percentage&amp;gt;=40){  
+                   System.out.println("B grade"); 
+                   return "B grade"; //Return statement
+               }else {  
+                   System.out.println("Not Eligible");  
+                   return "Not Eligible"; //Return statement
+               }
+          }
+ 
+  
+ public static void main (String[] args){
+    System.out.println("Hello , this is sample program");   
+    String grade = DemoClass.getGrade(70);
+    System.out.println("Grade:"+grade);
+ }
+ 
+}
         }
     }
 }
