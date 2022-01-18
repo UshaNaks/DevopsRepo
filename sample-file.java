@@ -45,13 +45,14 @@ public class Request {
 			
 			
 			public class DemoClass{
- // new code for HDFC-300 userstory is added by Dev1
- 
- public static void main (String[] args){
-    System.out.println("Hello , this is sample program");   
-    double d = Math.random();
-    System.out.println("Random Number:"+d);
- }
+ // new code for HDFC-301 userstory is added by Dev2
+ public static int  sampleMethod(int a,int b) throws ArithmeticException{ 
+//[1] int as data type of return value
+      System.out.println("Hello, this is sample method");
+      int c = a/b; // int c = 4 / 2 gets calculated as 2 
+      System.out.println("c:"+c); // c: 2
+      return c;//return statement 
+ } 
         }
     }
 }
