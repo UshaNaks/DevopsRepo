@@ -42,6 +42,16 @@ public class Request {
 
         } catch (Exception ex) {
             ex.printStackTrace();
+			
+			
+			public class DemoClass{
+ // new code for HDFC-300 userstory is added by Dev1
+ 
+ public static void main (String[] args){
+    System.out.println("Hello , this is sample program");   
+    double d = Math.random();
+    System.out.println("Random Number:"+d);
+ }
         }
     }
 }
